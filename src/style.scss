@@ -67,7 +67,6 @@
     }
 
     .logo {
-      font-family: 'Manrope', sans-serif;
       color: #000000;
       font-weight: 600;
       font-size: 30px;
@@ -78,7 +77,6 @@
     }
 
     .title {
-      font-family: 'Manrope', sans-serif;
       color: #3c3c3c;
       font-size: 17px;
       margin-bottom: 20px;
@@ -91,8 +89,7 @@
       gap: 15px;
 
       input {
-        font-family: 'Manrope', sans-serif;
-        padding: 15px;
+          padding: 15px;
         border: none;
         width: 250px;
         border-bottom: 1px solid #000000;
@@ -115,8 +112,7 @@
 
       button {
         margin-top: 20px;
-        font-family: 'Manrope', sans-serif;
-        background-color: #85586F;
+          background-color: #85586F;
         color: #F8EDE3;
         padding: 10px;
         font-weight: bold;
@@ -129,8 +125,7 @@
 
       button:hover {
         margin-top: 20px;
-        font-family: 'Manrope', sans-serif;
-        background-color: #5c3248;
+          background-color: #5c3248;
         color: white;
         padding: 10px;
         font-weight: bold;
@@ -141,8 +136,7 @@
       }
 
       label {
-        font-family: 'Manrope', sans-serif;
-        display: flex;
+          display: flex;
         align-items: center;
         gap: 8px;
         color: #393939;
@@ -158,7 +152,6 @@
     }
 
     p {
-      font-family: 'Manrope', sans-serif;
       color: #000000;
       font-size: 14px;
       margin-top: 12px;
@@ -169,7 +162,6 @@
 
 
     .error {
-      font-family: 'Manrope', sans-serif;
       color: #de0000;
       font-size: 14px;
       margin-top: -3%;
@@ -219,8 +211,7 @@
         color: #ddddf7;
 
         .logo {
-          font-family: 'Manrope', sans-serif;
-          font-size: 19px;
+              font-size: 19px;
           color: #141414;
           font-weight: 500;
           background-color: transparent;
@@ -252,8 +243,7 @@
           }
 
           .username {
-            font-family: 'Manrope', sans-serif;
-            font-weight: 600;
+                  font-weight: 600;
             margin-right: 17px;
             color: #DFD3C3;
             transition: 0.2s ease-in-out;
@@ -274,8 +264,7 @@
           padding: 10px;
 
           input {
-            font-family: 'Manrope', sans-serif;
-
+      
             background-color: transparent;
             border: none;
             color: #85586F;
@@ -316,14 +305,12 @@
           span {
             font-size: 18px;
             font-weight: 500;
-            font-family: 'Manrope', sans-serif;
-
+      
           }
           p {
             font-size: 14px;
             color:#3e2733;
-            font-family: 'Manrope', sans-serif;
-            
+                  
 
           }
         }
@@ -341,13 +328,11 @@
         justify-content: space-between;
         padding: 10px;
         color: lightgray;
-        font-family: 'Manrope', sans-serif;
-
+  
       }
       
       .displayName{
-        font-family: 'Manrope', sans-serif;
-        font-size: 17px;
+          font-size: 17px;
         color: #dcdcdc;
       }
 
@@ -368,24 +353,21 @@
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
-        font-family: 'Manrope', sans-serif;
-
+  
 
         .message {
           display: flex;
           gap: 20px;
           margin-top: 20px;
           margin-bottom: 20px;
-          font-family: 'Manrope', sans-serif;
-
+    
 
           .messageInfo {
             display: flex;
             flex-direction: column;
             color: gray;
             font-weight: 300;
-            font-family: 'Manrope', sans-serif;
-
+      
 
             img {
               width: 40px;
@@ -408,8 +390,7 @@
               padding: 10px 20px;
               border-radius: 0px 10px 10px 10px;
               max-width: max-content;
-              font-family: 'Manrope', sans-serif;
-              font-weight: 400;
+                      font-weight: 400;
 
             }
 
@@ -431,8 +412,7 @@
                 background-color: #85586F;
                 color: white;
                 border-radius: 10px 0px 10px 10px;
-                font-family: 'Manrope', sans-serif;
-                
+                          
 
               }
             }
@@ -447,8 +427,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-family: 'Manrope', sans-serif;
-
+  
 
         input {
           background-color: transparent;
@@ -457,14 +436,12 @@
           outline: none;
           color: #F8EDE3;
           font-size: 18px;
-          font-family: 'Manrope', sans-serif;
-          transition: 0.3s ease-in-out;
+              transition: 0.3s ease-in-out;
 
 
           &::placeholder {
             color: #F8EDE3;
-            font-family: 'Manrope', sans-serif;
-
+      
           }
         }
 
@@ -485,8 +462,7 @@
           display: flex;
           align-items: center;
           gap: 10px;
-          font-family: 'Manrope', sans-serif;
-
+    
 
           img {
             height: 24px;
@@ -501,8 +477,7 @@
             padding: 10px 20px;
             border-radius: 20px;
             cursor: pointer;
-            font-family: 'Manrope', sans-serif;
-            transition: 0.2s ease-in-out;
+                  transition: 0.2s ease-in-out;
 
           }
 
