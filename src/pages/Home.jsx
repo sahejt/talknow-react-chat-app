@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Chat from '../components/Chat'
-import Copyright from '../components/Copyright'
 
 const Home = () => {
   return (
@@ -9,9 +8,6 @@ const Home = () => {
       <div className="container">
         <Sidebar/>
         <Chat/>
-      </div>
-      <div className="copyright">
-        <Copyright/>
       </div>
     </div>
   )
