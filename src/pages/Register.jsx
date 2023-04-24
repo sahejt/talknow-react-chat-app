@@ -63,7 +63,7 @@ const Register = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">👋 Welcome to TalkNow!</span>
-        <span className="title">Create a new account today!</span>
+        <span className="title">Create an account</span>
         <form onSubmit={handleSubmit}>
           <input required type="text" placeholder="Display Name" />
           <input required type="email" placeholder="Email Address" />
@@ -74,14 +74,21 @@ const Register = () => {
             <span>Select a Profile Picture</span>
           </label>
           <button disabled={loading}>Sign up</button>
-          {loading && "Creating Account...."}
+          {loading && "Setting up your account..."}
           {err && <span className="error">Something went wrong</span>}
         </form>
         <p>
           Already have an account? <Link to="/login">Login</Link>
         </p>
       </div>
+      <div className='copyright'>
+        <p>App Created by <a href="https://sahejtuli.com">Sahej Tuli</a> </p>
+        </div>
     </div>
+
+    
+    
+    
   );
 };
 

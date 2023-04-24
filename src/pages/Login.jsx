@@ -23,7 +23,7 @@ const Login = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">👋 Welcome Back!</span>
-        <span className="title">Please Log In to your account!</span>
+        <span className="title">Log in to your account</span>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="Email Address" />
           <input type="password" placeholder="Password" />
@@ -33,8 +33,14 @@ const Login = () => {
           
         </form>
         <p>New to TalkNow? <Link to="/register">Create an account</Link></p>
+        
       </div>
+      <div className="copyright">
+        <p>App Created by <a href="https://sahejtuli.com">Sahej Tuli</a> </p>
+        </div>
     </div>
+
+      
   );
 };
 

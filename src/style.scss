@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
 
@@ -21,15 +22,39 @@
 
 
 .formContainer {
-  background-image: white;
+  
   background-image: url("./img/bg.png");
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+
+  .copyright{
+    background-color: #F8EDE3;
+    margin-top: 2%;
+    padding: 15px 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+
+
+    p{
+      font-size: 13px;
+      color: 85586F;
+        font-weight: 500;
+      a{
+        color: #85586F;
+        text-decoration: none;
+      }
+
+    
+    }
+  }
 
   .formWrapper {
-    background-color: #ffffff;
+    background-color: #F8EDE3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
     padding: 45px 60px;
     border-radius: 7px;
     display: flex;
@@ -38,7 +63,7 @@
     align-items: center;
 
     @include mobile {
-      padding: 20x 30px;
+      padding: 20px 30px;
     }
 
     .logo {
@@ -73,6 +98,7 @@
         border-bottom: 1px solid #000000;
         transition: 0.2s ease-in-out;
         outline: none;
+        background-color: transparent;
 
         &::placeholder {
           color: rgb(79, 79, 79);
@@ -90,8 +116,8 @@
       button {
         margin-top: 20px;
         font-family: 'Manrope', sans-serif;
-        background-color: #3b3b3b;
-        color: white;
+        background-color: #85586F;
+        color: #F8EDE3;
         padding: 10px;
         font-weight: bold;
         border: none;
@@ -104,7 +130,7 @@
       button:hover {
         margin-top: 20px;
         font-family: 'Manrope', sans-serif;
-        background-color: #000000;
+        background-color: #5c3248;
         color: white;
         padding: 10px;
         font-weight: bold;
