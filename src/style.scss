@@ -175,10 +175,10 @@
     }
 
     .sidebar {
-
       flex: 0.73;
       background-color: #DFD3C3;
       position: relative;
+      overflow: scroll;
       
 
       .navbar {
@@ -208,6 +208,7 @@
     
 
         .user {
+          
           display: flex;
           background-color: #1b1b1b;
           padding-left: 6px;
@@ -262,6 +263,7 @@
       }
 
       .userChat {
+        
         padding: 10px;
         display: flex;
         align-items: center;
