@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+<h1 align="left">TalkNow Chat App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###
+
+<div align="left">
+  <img height="250" src="https://i.ibb.co/WgQwVwt/Untitled-1920-1080-px-7.png"  />
+</div>
+
+###
+
+<p align="left">TalkNow is a personal project I have worked on, which is a real-time messaging application. The app is designed to provide a seamless and intuitive messaging experience to users, allowing them to stay connected with their friends and family.</p>
+
+###
+
+<h2 align="left">Languages / Technologies used</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" width="52" alt="firebase logo"  />
+</div>
+
+###
 
 ## Available Scripts
 
