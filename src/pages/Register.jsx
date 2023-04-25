@@ -82,7 +82,7 @@ const Register = () => {
         </p>
       </div>
       <div className='copyright'>
-        <p>App Created by <a href="https://sahejtuli.com" target="_blank">Sahej Tuli</a> </p>
+        <p>App Created by <a href="https://sahejtuli.com">Sahej Tuli</a> </p>
         </div>
     </div>
 
